@@ -55,7 +55,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span><a href="">Projects</a></span>
+                  <span><a href={d.link}>Projects</a></span>
                 </div>
               </div>
               <div className="right">
