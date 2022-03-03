@@ -42,7 +42,9 @@ export default function Portfolio() {
     },[selected])
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1 >Portfolio</h1>
+      <br>
+      </br>
       <ul>
         {list.map((item)=>(<Portfoliolist title={item.title} active={selected === item.id} setSelected={setSelected}
         id={item.id}/>
